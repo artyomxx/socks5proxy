@@ -1,6 +1,6 @@
 ## SOCKS5 proxy
 
-> based on Dante-server
+> based on [Dante](https://www.inet.no/dante/)
 
 1. Clone this repo
 2. Change username and password in [Dockerfile](Dockerfile)
