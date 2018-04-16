@@ -3,10 +3,10 @@
 > based on Dante-server
 
 
-1. Change username and password in [Dockerfile]
+1. Change username and password in [Dockerfile](Dockerfile)
 2. `docker build . -t socks5proxy` (change `sockes5proxy` to whatever you want)
 3. `docker run --name proxy -d --restart-always -p 1080:1080 socks5proxy`
-4. Setup clients with username and password you've typed in [Dockerfile]
+4. Setup clients with username and password you've typed in [Dockerfile](Dockerfile)
 
 ---
 
